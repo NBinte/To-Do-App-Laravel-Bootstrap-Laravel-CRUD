@@ -9,7 +9,7 @@ class Todo extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title']; //these fields will be mass assignable
+    protected $fillable = ['title', 'completed']; //these fields will be mass assignable
 
 
 
